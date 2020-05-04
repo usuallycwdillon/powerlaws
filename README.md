@@ -11,27 +11,7 @@ and for generating power law distributed data. All methods are implemented for
 continuous data, discrete data and the approximation of discrete data with a 
 continuous distribution.
 
-# Installation
-
-You can use [jitpack.io](https://jitpack.io/#Data2Semantics/powerlaws) to add the powerlaws library to your project. Simply add 
-the following repository to your pom.xml:
-```xml
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
-```
-And the following dependency
-```
-	<dependency>
-	    <groupId>com.github.Data2Semantics</groupId>
-	    <artifactId>powerlaws</artifactId>
-	    <version>v0.1.0</version>
-	</dependency>
-```
-Check [the releases](https://github.com/Data2Semantics/powerlaws/releases) for the version number of the latest release.
+I have modified the code to correct an arithmetic error observed by @jhauffa and to replace Bloem's use of Java's `Random` class in favor of Luke's Mersene Twister Fast available from MASON. 
  
 # The Basics
 
